@@ -16,7 +16,7 @@ const Hero = () => {
     <motion.section
       ref={targetRef}
       style={{ opacity: opacity }}
-      className="relative mb-[8rem] h-screen  text-white before:pointer-events-none before:fixed before:inset-0 before:z-0  before:opacity-40"
+      className="relative mb-[4rem] h-screen  text-white before:pointer-events-none before:fixed before:inset-0 before:z-0  before:opacity-40"
     >
       <motion.div
         className="min-h-screen hero"
@@ -31,7 +31,7 @@ const Hero = () => {
           className="text-center hero-content text-neutral-content"
         >
           <div className="max-w-5xl">
-            <h1 className="mb-5 font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-blue-500 to-pink-600">
+            <h1 className="mb-5 font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-red-500 to-pink-800 font-flesh">
               Bloodborne
             </h1>
           </div>

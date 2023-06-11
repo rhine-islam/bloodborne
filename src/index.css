@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Fleshandblood";
+  src: url("../public/assets/fonts/Fleshandblood-MVA5x.ttf");
+}

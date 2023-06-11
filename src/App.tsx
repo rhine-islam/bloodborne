@@ -1,11 +1,13 @@
+import Gallery from "./components/Gallery";
 import Hero from "./components/Hero";
-import ImageGrid from "./components/ImageGrid";
+import StickySlider from "./components/StickySlider";
 
 function App() {
   return (
     <div>
       <Hero />
-      <ImageGrid />
+      <Gallery />
+      <StickySlider />
     </div>
   );
 }

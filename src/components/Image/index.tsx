@@ -3,7 +3,7 @@ const Image = ({ image }: any) => {
     <img
       src={image}
       alt={image}
-      className="object-contain object-center w-full h-full rounded-2xl"
+      className="object-cover object-center w-full h-full rounded-2xl"
     />
   );
 };

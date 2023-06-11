@@ -28,7 +28,7 @@ const FlipClass = plugin(function ({ addUtilities }) {
 });
 
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -41,6 +41,7 @@ module.exports = {
       fontFamily: {
         body: "var(--font-inter), sans-serif",
         heading: "var(--font-cousine), serif",
+        flesh: ["Fleshandblood", "sans-serif"],
       },
       spacing: {
         0: "0",
